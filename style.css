@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(250, 242, 232);
+}
+#container{
+    background-color: rgb(250, 242, 232);
+    height: 100%;
+    width: 75%;
+    display: block;
+    margin-left: 10%;
+}
+
+#name h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+#name{
+    padding-bottom: 1rem;
+}
+
+#skills{
+    background-color: rgb(247, 217, 181);
+    height: 5rem;
+}
+
+#des{
+    
+    margin-top: 1.5rem;
+}
+#certificates {
+    display: inline-flex;
+    padding: 0.5rem;
+    width: 100%;
+    height: auto;
+    
+}
+.card{
+    width: 25%;
+    height: 10rem;
+    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.3cm;
+}
+
+.card:hover{
+    background-color:rgb(247, 217, 181) ;
+    cursor: pointer;
+}
