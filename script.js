@@ -1,3 +1,30 @@
+/*to display projects*/
+function project(){
+  var x = document.getElementById("scroll-text");
+    if (x.innerHTML.includes("ExpertEase")) {
+      insert1("Aúfholen- Personalized app to create to-do list");
+    } 
+    else if(x.innerHTML.includes("Aúfholen")) {
+      insert1("Match Outcome Predictor");
+    } 
+    else if(x.innerHTML.includes("Match"))  {
+      insert1("ExpertEase- Website to provide guidance")
+    }
+    
+
+}
+
+function insert1(skills){
+  var x = document.getElementById("scroll-text");
+  x.style.display="none";
+  x.innerHTML = skills;
+  x.style.display="block";
+
+  setTimeout(project,7000);
+}
+
+
+/*for technologies*/
 function myFunction() {
     var x = document.getElementById("mytech");
     if (x.innerHTML === "JAVA") {
@@ -13,7 +40,7 @@ function myFunction() {
       insert("JAVASCRIPT");
     }
     else if(x.innerHTML==="JAVASCRIPT")  {
-      x.style.color='cyan';
+      x.style.color='#00CED1';
       insert("REACTJS");
     }
     else if(x.innerHTML==="REACTJS")  {
